@@ -27,7 +27,9 @@ class Word_Comparator implements Comparator<String>{
 
 
 public class Main {
+    
     static HashMap<String,Integer> word_Set;
+
     public static void main(String[] args) throws IOException{
         double beforeTime = System.currentTimeMillis();
 
